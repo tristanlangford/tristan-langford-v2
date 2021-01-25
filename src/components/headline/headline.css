@@ -1,0 +1,28 @@
+.headline {
+    position: relative;
+    height: 70vh;
+}
+
+.collage {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.central-container {
+    position: absolute;
+    top: 50%;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: solid 30px white;
+}
+
+.headline .central-container {
+    background-color: white;
+
+}
+
+.circle-image {
+    border-radius: 50%;
+}
